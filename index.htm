@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>demo</title>
+		<style>
+			div.button {
+				top: 0;
+				left: 0;
+				width: 148px;
+				height: 298px;
+				border: 1px solid #FFFFFF;
+				cursor: pointer;
+				display: none;
+				position: absolute;
+				background-repeat: no-repeat;
+				background-position: left bottom;
+			}
+			div.button.loaded {
+				display: block;
+			}
+			#button-01 {
+				background-color: #85282F;
+				background-image: url("button-01.png");
+			}
+			#button-01:hover {
+				background-color: #AE353F;
+			}
+			#button-02 {
+				left: 150px;
+				background-color: #135056;
+				background-image: url("button-02.png");
+			}
+			#button-02:hover {
+				background-color: #196B73;
+			}
+			#button-03 {
+				left: 300px;
+				width: 298px;
+				background-color: #2A3744;
+				background-image: url("button-03.png");
+			}
+			#button-03:hover {
+				background-color: #38495B;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="button" id="button-01"></div>
+		<div class="button" id="button-02"></div>
+		<div class="button" id="button-03"></div>
+		<script src="index.js"></script>
+	</body>
+</html>
